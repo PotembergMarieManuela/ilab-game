@@ -1,0 +1,78 @@
+.farmer
+{
+  height: 100%;
+}
+
+.farmer_map
+{
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  width: fit-content;
+  height: 20%;
+  display: flex;
+}
+
+.farmer_chicken
+{
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  width: fit-content;
+  height: 70%;
+  display: flex;
+}
+
+.farmer_sheep
+{
+  position: absolute;
+  bottom: 0%;
+  right: 5%;
+  width: fit-content;
+  height: 60%;
+  display: flex;
+}
+
+.farmer_pig
+{
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  width: fit-content;
+  height: 65%;
+  display: flex;
+}
+
+.farmer_vegetable
+{
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  width: fit-content;
+  height: 60%;
+  display: flex;
+}
+
+.farmer_speak
+{
+  font-size: 1.2rem;
+  position: relative;
+  width: fit-content;
+  max-width: 15rem;
+  height: fit-content;
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media  screen and (min-width: 1200px)
+{
+  .farmer_speak
+  {
+    font-size: 1.7rem;
+    max-width: 16rem;
+  }
+}

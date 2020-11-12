@@ -1,0 +1,113 @@
+.map, .chicken, .farmyard, .coop, .hatchery, .sheep, .barn, .meadow, .hangar, .pig, .pig_enclosure,
+.mud, .pigsty, .vegetable, .orchard, .greenhouse, .garden
+{
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.map {
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/map.jpg);
+}
+
+// CHICKEN
+
+.chicken
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/chicken_farm.jpg);
+}
+
+.farmyard
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/farmyard.jpg);
+}
+
+.coop
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/coop.jpg);
+}
+
+.hatchery
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/hatchery.jpg);
+}
+
+// SHEEP
+
+.sheep
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/sheep_farm.jpg);
+}
+
+.meadow
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/meadow.jpg);
+}
+
+.barn
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/barn.jpg);
+}
+
+.hangar
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/hangar.jpg);
+}
+
+// PIG
+
+.pig
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/pig_farm.jpg);
+}
+
+.pig_enclosure
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/enclosure.jpg);
+}
+
+.pigsty
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/pigsty.jpg);
+}
+
+.mud
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/pig/mud.jpg);
+}
+
+// VEGETABLE
+
+.vegetable
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/vegetable_farm.jpg);
+}
+
+.orchard
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/orchard.jpg);
+}
+
+.greenhouse
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/greenhouse.jpg);
+}
+
+.garden
+{
+    background-image: url(https://morigann.be/projets/ilab/game/assets/images/garden.jpg);
+}
+
+.icon_map
+{
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    width: 10%;
+}
+
+.visible
+{
+    display: block;
+}

@@ -1,0 +1,541 @@
+// PANNEL
+
+.pannel_chicken
+{
+  position: absolute;
+  width: 15%;
+  right: 25%;
+  bottom: 5%;
+}
+
+.pannel_sheep
+{
+  position: absolute;
+  width: 15%;
+  left: 3%;
+  bottom: 40%;
+}
+
+.pannel_pig
+{
+  position: absolute;
+  width: 12%;
+  right: 5%;
+  bottom: 40%;
+}
+
+.pannel_apple
+{
+  position: absolute;
+  width: 15%;
+  left: 5%;
+  bottom: 7%;
+}
+
+/* POULES */
+
+.chicken-poule1
+{
+  position: absolute;
+  width: 10%;
+  left: 40%;
+  bottom: 20%;
+}
+
+.chicken-poule2
+{
+  position: absolute;
+  width: 10%;
+  left: 62%;
+  bottom: 5%;
+}
+
+.chicken-coq
+{
+  position: absolute;
+  width: 7%;
+  left: 50%;
+  bottom: 35%;
+}
+
+/* COOP = POULLAILLER */
+
+.coop-poule1
+{
+  position: absolute;
+  width: 10%;
+  left: 40%;
+  top: 20%;
+}
+
+.coop-poussin1
+{
+  position: absolute;
+  width: 4%;
+  left: 35%;
+  top: 50%; 
+}
+
+.coop-poussin2
+{
+    position: absolute;
+    width: 4%;
+    left: 13%;
+    bottom: 20%; 
+}
+
+.coop-poussin3
+{
+    position: absolute;
+    width: 4%;
+    left: 80%;
+    bottom: 20%; 
+  }
+
+  .coop-poussin4
+  {
+    position: absolute;
+    width: 4%;
+    left: 80%;
+    bottom: 40%; 
+  }
+
+
+/* HATCHERY = POUSSIN */ 
+
+.hatchery-poule1
+{
+  position: absolute;
+  width: 10%;
+  left: 50%;
+  bottom: 20%;
+}
+
+.hatchery-poussin1
+{
+  position: absolute;
+  width: 3%;
+  left: 60%;
+  bottom: 15%;
+}
+
+.hatchery-poussin2
+{
+  position: absolute;
+  width: 3%;
+  left: 75%;
+  bottom: 35%;
+}
+
+.hatchery-poussin3
+{
+  position: absolute;
+  width: 3%;
+  left: 40%;
+  bottom: 25%;
+}
+
+.coop-oeuf1{
+    position: absolute;
+    width: 2%;
+    left: 61%;
+    bottom: 57%;
+}
+ 
+.coop-oeuf2{
+    position: absolute;
+    width: 2%;
+    left: 55%;
+    bottom: 55%;
+}
+
+.coop-oeuf3{
+  position: absolute;
+  width: 2%;
+  left: 70%;
+  bottom: 53%;
+}
+
+.coop-oeuf4{
+  position: absolute;
+  width: 2%;
+  left: 35%;
+  bottom: 52%;
+}
+
+.coop-oeuf5{
+  position: absolute;
+  width: 2%;
+  left: 10%;
+  bottom: 58%;
+}
+
+
+
+/* FARMYARD = basse-cours */
+
+.farmyard-poule1
+{
+  position: absolute;
+  width: 10%;
+  left: 3%;
+  bottom: 20%;
+}
+
+.farmyard-poule2
+{
+  position: absolute;
+  width: 10%;
+  left: 70%;
+  bottom: 25%;
+}
+
+.farmyard-coq
+{
+  position: absolute;
+  width: 8%;
+  left: 50%;
+  bottom: 12%;
+}
+
+/* MOUTON */
+
+.mouton1
+{
+    position: absolute;
+    width: 20%;
+    left: 5%;
+    bottom: 25%;
+}
+
+.mouton2
+{
+    position: absolute;
+    width: 20%;
+    left: 30%;
+    bottom: 30%;
+}
+
+
+/* Meadow = prairie  */
+
+.meadow-mouton1
+{
+    position: absolute;
+    width: 20%;
+    left: 10%;
+    bottom: 25%;
+}
+
+.meadow-mouton2
+{
+    position: absolute;
+    width: 10%;
+    left: 75%;
+    bottom: 50%;
+}
+
+.meadow-belier
+{
+    position: absolute;
+    width: 23%;
+    left: 45%;
+    bottom: 0;
+}
+
+.meadow-agneau
+{
+    position: absolute;
+    width: 7%;
+    left: 20%;
+    bottom: 20%;
+}
+
+/* Barn = grange   */
+
+.barn-agneau1
+{
+    position: absolute;
+    width: 7%;
+    left: 50%;
+    bottom: 20%;
+}
+
+.barn-agneau2
+{
+    position: absolute;
+    width: 10%;
+    left: 30%;
+    bottom: 35%;
+}
+
+.barn-mouton1
+{
+    position: absolute;
+    width: 20%;
+    left: 50%;
+    bottom: 40%;
+}
+
+
+/* Hangar = hangar*/
+
+
+.hangar-mouton1
+{
+    position: absolute;
+    width: 10%;
+    left: 35%;
+    bottom: 41%;
+}
+
+.hangar-mouton2
+{
+    position: absolute;
+    width: 20%;
+    left: 20%;
+    bottom: 5%;
+}
+
+.hangar-moutonTondu
+{
+  opacity: 0;
+  position: absolute;
+  width: 22%;
+  left: 20%;
+  bottom: 5%;
+}
+
+/* COCHON */
+
+.cochon1
+{
+    position: absolute;
+    width: 25%;
+    left: 5%;
+    bottom: 25%;
+}
+
+.cochon2
+{
+    position: absolute;
+    width: 25%;
+    left: 25%;
+    bottom: 10%;
+}
+
+.cochon3
+{
+    position: absolute;
+    width: 15%;
+    left: 25%;
+    bottom: 30%;
+}
+
+.cochon4
+{
+    position: absolute;
+    width: 15%;
+    left: 25%;
+    bottom: 30%;
+}
+
+/* pig_enclosure = enclos */
+
+.pig_enclosure-cochon1
+{
+    position: absolute;
+    width: 12%;
+    left: 50%;
+    bottom: 25%;
+}
+
+.pig_enclosure-porcelais1
+{
+    position: absolute;
+    width: 10%;
+    left: 35%;
+    bottom: 40%;
+}
+
+.pig_enclosure-porcelais2
+{
+    position: absolute;
+    width: 10%;
+    left: 75%;
+    bottom: 32%;
+}
+
+
+/* pigsty = porcherie */
+
+.pigsty-porcelais1
+{
+    position: absolute;
+    width: 10%;
+    left: 50%;
+    bottom: 5%;
+}
+
+.pigsty-porcelais2
+{
+    position: absolute;
+    width: 10%;
+    left: 40%;
+    bottom: 40%;
+}
+
+.pigsty-cochon1
+{
+    position: absolute;
+    width: 15%;
+    left: 60%;
+    bottom: 50%;
+}
+
+.pigsty-cochon2
+{
+    position: absolute;
+    width: 15%;
+    left: 10%;
+    bottom: 10%;
+}
+
+// MUD
+
+.mud-cochon1
+{
+  position: absolute;
+  width: 15%;
+  left: 50%;
+  bottom: 50%;
+}
+
+.mud-cochon2
+{
+  position: absolute;
+  width: 15%;
+  left: 65%;
+  bottom: 15%;
+}
+
+.mud-cochon3
+{
+  position: absolute;
+  width: 15%;
+  left: 10%;
+  bottom: 25%;
+}
+
+// INTERACTION
+
+.eggAnimated
+{
+  animation: animationEgg 0.5s ease-in;
+  animation-fill-mode: forwards;
+}
+
+.sheepTransparent
+{
+  animation: animationSheep reverse 2s ease-in;
+  animation-fill-mode: forwards;
+}
+
+.sheepMowed
+{
+  animation: animationSheep 2s ease-in;
+  animation-fill-mode: forwards;
+}
+
+.feed
+{
+  opacity: 0;
+}
+
+.feedAnimated
+{
+  width: 10px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+
+  animation: confetti reverse 1s ease-out;
+
+  @for $i from 0 through 20 {
+    &:nth-child(#{$i}) {
+      background: #DCD19F;
+      animation-delay: ((20 - $i) / 20) * -3s;
+      animation-fill-mode: forwards;
+      top: random(10)+60 * 1%;;
+      opacity: 1;
+      left: random(40)+50 * 1%;
+    }
+  }
+
+  @keyframes confetti {
+    75%{
+      opacity: 90%;
+    }
+    100% {
+      top: 0;
+      opacity: 0;
+    }
+  }
+}
+
+.apple
+{
+  opacity: 0;
+}
+
+.appleAnimated
+{
+  width: 2%;
+  height: 4%;
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+
+  animation: confetti reverse 2s ease-out;
+
+  @for $i from 0 through 10 {
+    &:nth-child(#{$i}) {
+      animation-delay: ((10- $i) / 10) * -3s;
+      animation-fill-mode: forwards;
+      top: 90%;
+      opacity: 1;
+      left: random(80) * 1%;
+    }
+  }
+
+  @keyframes confetti {
+    100% {
+      top: 50%;
+      opacity: 0;
+    }
+  }
+}
+
+// ANIMATION
+
+@keyframes animationEgg
+{
+  0%{
+    opacity: 100%;
+  }
+  100%{
+    bottom: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animationSheep
+{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
+}

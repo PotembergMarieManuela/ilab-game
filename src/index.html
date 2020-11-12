@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <title>Jérôme à la ferme</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+<!-- Méta Google -->
+<meta name="title" content="Jérome à la ferme" />
+<meta name="description" content="" />
+
+<!-- Métas Facebook Opengraph -->
+<meta property="og:title" content="Jérome à la ferme" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://morigann.be/projets/ilab/game/" />
+<meta property="og:image" content="https://morigann.be/projets/ilab/game/assets/images/logo.png" />
+<meta property="og:type" content="website"/>
+
+<!-- Métas Twitter Card -->
+<meta name="twitter:title" content="Jérome à la ferme" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://morigann.be/projets/ilab/game/" />
+<meta name="twitter:image" content="https://morigann.be/projets/ilab/game/assets/images/logo.png" />
+
+
+  <meta name="description" content="">
+
+  <link rel="icon" type="image/gif" href="assets/images/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+  <script src="scripts/app.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js" defer></script>
+  
+  <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+  <section>
+    <p class="portrait">
+      Désolé, pour jouer à "Jérôme à la ferme", vous devez impérativement mettre votre écran en mode paysage.
+    </p>
+  </section>
+
+  <section class="scene">
+  <section class="map visible">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>Pour visiter les différentes fermes, dis les mots "Poule", "Mouton", "Cochon" ou "Légume".</p>
+    </div>
+    <div class="farmer_map">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+    
+  </section>
+
+  <section class="chicken">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Si tu veux voir les poussins, dis "Poussin", si tu veux aller dans la basse-cour, dis "Basse-cour"
+        et si tu veux voir le poullailler, dis "Poullailler".
+      </p>
+      </div>
+
+      <img class="chicken-poule1" src="assets/images/poules/poule_1.svg" alt="">
+      <img class="chicken-poule2" src="assets/images/poules/poule_2.svg" alt="">
+      <img class="chicken-coq" src="assets/images/poules/coq.svg" alt="">
+
+    <div class="farmer_chicken">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="farmyard">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans la basse-cour, si tu veux retourner voir la ferme des poules, dis "Poule", si tu veux
+        aller voir les poussins, dis "Poussin", si tu veux aller voir le poullailler, dis "Poullailler".
+      </p>
+    </div>
+
+    <img class="farmyard-poule1" src="assets/images/poules/poule_1.svg" alt="">
+    <img class="farmyard-poule2" src="assets/images/poules/poule_2.svg" alt="">
+    <img class="farmyard-coq" src="assets/images/poules/coq.svg" alt="">
+
+    <div class="farmer_chicken">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="coop">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans le poullailler, si tu veux retourner voir la ferme des poules, dis "Poule", si tu veux
+        aller voir les poussins, dis "Poussin", si tu veux aller voir la basse-cour, dis "Basse-cour".
+      </p>
+    </div>
+
+    <img class="pannel_chicken" src="assets/images/pannelChicken.png" alt="">
+
+    <img class="coop-poule1" src="assets/images/poules/poule_3.svg" alt="">
+    <img class="coop-poussin1" src="assets/images/poules/poussin_1.svg" alt="">
+    <img class="coop-poussin2" src="assets/images/poules/poussin_2.svg" alt="">
+    <img class="coop-poussin3" src="assets/images/poules/poussin_3.svg" alt="">
+    <img class="coop-poussin4" src="assets/images/poules/poussin_1.svg" alt="">
+
+    <img class="egg coop-oeuf1" src="assets/images/poules/oeuf.svg" alt="">
+    <img class="egg coop-oeuf2" src="assets/images/poules/oeuf.svg" alt="">
+    <img class="egg coop-oeuf3" src="assets/images/poules/oeuf.svg" alt="">
+    <img class="egg coop-oeuf4" src="assets/images/poules/oeuf.svg" alt="">
+    <img class="egg coop-oeuf5" src="assets/images/poules/oeuf.svg" alt="">
+
+    <div class="farmer_chicken">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="hatchery">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans chez les poussin, si tu veux retourner voir la ferme des poules, dis "Poule", si tu veux
+        aller voir le poullailler, dis "Poullailler", si tu veux aller voir la basse-cour, dis "Basse-cour".
+      </p>
+    </div>
+
+    <img class="hatchery-poule1" src="assets/images/poules/poule_2.svg" alt="">
+    <img class="hatchery-poussin1" src="assets/images/poules/poussin_1.svg" alt="">
+    <img class="hatchery-poussin2" src="assets/images/poules/poussin_2.svg" alt="">
+    <img class="hatchery-poussin3" src="assets/images/poules/poussin_3.svg" alt="">
+
+    <div class="farmer_chicken">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="sheep">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Si tu veux aller voir la prairie, dis le mot "Prairie", si tu veux aller dans la grange, dis "grange", si tu veux aller
+        voir le hangar où on tond les moutons, dis "Hangar".
+      </p>
+    </div>
+    <img class="mouton1" src="assets/images/moutons/mouton_01.svg" alt="">
+    <img class="mouton2" src="assets/images/moutons/mouton_02.svg" alt="">
+    <div class="farmer_sheep">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+  </section>
+
+  <section class="meadow">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans la prairie, si tu veux retourner voir la ferme des mouton, dis "Mouton", si tu veux
+        aller voir la grange, dis "grange", si tu veux aller voir le hangar, dis "Hangar".
+      </p>
+    </div>
+
+    <img class="meadow-mouton1" src="assets/images/moutons/mouton_02.svg" alt="">
+    <img class="meadow-mouton2" src="assets/images/moutons/mouton_04.svg" alt="">
+    <img class="meadow-belier" src="assets/images/moutons/belier.svg" alt="">
+    <img class="meadow-agneau" src="assets/images/moutons/agneau_01.svg" alt="">
+
+    <div class="farmer_sheep">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="barn">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans la grange, si tu veux retourner voir la ferme des mouton, dis "Mouton", si tu veux
+        aller voir la prairie, dis "Prairie", si tu veux aller voir le hangar, dis "Hangar".
+      </p>
+    </div>
+
+    <img class="barn-agneau1" src="assets/images/moutons/agneau_01.svg" alt="">
+    <img class="barn-agneau2" src="assets/images/moutons/agneau_02.svg" alt="">
+    <img class="barn-mouton1" src="assets/images/moutons/mouton_03.svg" alt="">
+
+    <div class="farmer_sheep">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="hangar">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans le hangar, si tu veux retourner voir la ferme des mouton, dis "Mouton", si tu veux
+        aller voir la grange, dis "grange", si tu veux aller voir la prairie, dis "Prairie".
+      </p>
+    </div>
+
+    <img class="pannel_sheep" src="assets/images/pannelSheep.png" alt="">
+
+    <img class="hangar-mouton1" src="assets/images/moutons/mouton_04.svg" alt="">
+    <img class="hangar-mouton2" src="assets/images/moutons/mouton_01.svg" alt="">
+    <img class="hangar-moutonTondu" src="assets/images/moutons/mouton_tondu.svg" alt="">
+
+    <div class="farmer_sheep">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="pig">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Si tu veux aller voir l'enclos, dis le mot "Enclos", si tu veux aller dans la porcherie, dis "Porcherie", si tu veux aller
+        voir le bain, dis "bain".
+      </p>
+    </div>
+
+    <img class="cochon1" src="assets/images/cochon/cochon.svg" alt="">
+    <img class="cochon2" src="assets/images/cochon/cochon_02.svg" alt="">
+
+    <div class="farmer_pig">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="pig_enclosure">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans l'enclos, si tu veux retourner voir la ferme des cochons, dis "Cochons", si tu veux
+        aller voir la porcherie, dis "Porcherie", si tu veux aller voir le bain, dis "bain".
+      </p>
+    </div>
+
+    <img class="pannel_pig" src="assets/images/pannelPig.png" alt="">
+
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+    <span class="feed"></span>
+
+    <img class="pig_enclosure-cochon1" src="assets/images/cochon/cochon_03.svg" alt="">
+    <img class="pig_enclosure-porcelais1" src="assets/images/cochon/porcelais_03.svg" alt="">
+    <img class="pig_enclosure-porcelais2" src="assets/images/cochon/porcelais_04.svg" alt="">
+
+    <div class="farmer_pig">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="mud">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans la bain, si tu veux retourner voir la ferme des cochons, dis "Cochons", si tu veux
+        aller voir la porcherie, dis "Porcherie", si tu veux aller voir l'enclos, dis "Enclos".
+      </p>
+    </div>
+
+    <img class="mud-cochon1" src="assets/images/cochon/porcelais.svg" alt="">
+    <img class="mud-cochon2" src="assets/images/cochon/cochon_03.svg" alt="">
+    <img class="mud-cochon3" src="assets/images/cochon/porcelais_04.svg" alt="">
+
+    <div class="farmer_pig">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="pigsty">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+      <div class="explication">
+        <p>
+          Ici, tu es dans la porcherie, si tu veux retourner voir la ferme des cochons, dis "Cochons", si tu veux
+          aller voir l'enclos, dis "Enclos", si tu veux aller voir le bain, dis "bain".
+        </p>
+      </div>
+
+      <img class="pigsty-porcelais1" src="assets/images/cochon/porcelais_02.svg" alt="">
+      <img class="pigsty-porcelais2" src="assets/images/cochon/porcelais_03.svg" alt="">
+      <img class="pigsty-cochon1" src="assets/images/cochon/cochon_02.svg" alt="">
+      <img class="pigsty-cochon2" src="assets/images/cochon/cochon_03.svg" alt="">
+      
+    <div class="farmer_pig">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="vegetable">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Si tu veux aller voir la serre, dis le mot "Serre", si tu veux aller dans le potager, dis "Potager", si tu veux aller
+        voir le verger, dis "Verger".
+      </p>
+    </div>
+    <div class="farmer_vegetable">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="orchard">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans le verger, si tu veux retourner voir la ferme des fruits et légumes, dis "Légume", si tu veux
+        aller voir le potager, dis "Potager", si tu veux aller voir la serre, dis "Serre".
+      </p>
+    </div>
+
+    <img class="pannel_apple" src="assets/images/pannelApple.png" alt="">
+
+
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+    <img class="apple" src="assets/images/pomme_02.svg" alt="">
+
+    <div class="farmer_vegetable">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="greenhouse">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans la serre, si tu veux retourner voir la ferme des fruits et légumes, dis "Légume", si tu veux
+        aller voir le potager, dis "Potager", si tu veux aller voir le verger, dis "Verger".
+      </p>
+    </div>
+    <div class="farmer_vegetable">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+
+  <section class="garden">
+    <div class="icon_map">
+      <img class="icon_map_img" src="assets/images/map_logo.svg">
+    </div>
+    <div class="explication">
+      <p>
+        Ici, tu es dans le potager, si tu veux retourner voir la ferme des fruits et légumes, dis "Légume", si tu veux
+        aller voir le verger, dis "Verger", si tu veux aller voir la serre, dis "Serre"
+      </p>
+    </div>
+    <div class="farmer_vegetable">
+      <img class="farmer" src="assets/images/farmer.svg">
+      <div class="farmer_speak"></div>
+    </div>
+  </section>
+</section>
+</body>
+</html>

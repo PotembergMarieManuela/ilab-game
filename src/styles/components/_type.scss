@@ -1,0 +1,101 @@
+:root
+{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: $c-text;
+  margin: 0;
+}
+
+@media screen and (orientation: portrait)
+{
+  .scene
+  {
+    display: none;
+  }
+
+  .portrait
+  {
+    font-size: 1.2rem;
+    position: absolute;
+    display: block;
+    top: 50%;
+    max-width: 40rem;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 800px), screen and (orientation: landscape)
+{
+  .portrait
+  {
+    display: none;
+  }
+
+  section
+  {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .scene
+  {
+    position: absolute;
+    display: block;
+    animation-name: opaque;
+    animation-duration: 3s;
+  }
+  
+  .explication
+  {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.322);
+    height: 15%;
+    width: 100%;
+  }
+  
+  p
+  {
+    position: relative;
+    color: #fffffff6;
+    margin: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 60rem;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
+  .visible
+  {
+    display: block;
+    animation-name: opaque;
+    animation-duration: 3s;
+  }
+}
+
+@media  screen and (min-width: 1200px)
+{
+  body
+  {
+    font-size: 1.8rem;
+  }
+}
+
+@keyframes opaque
+{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 100%;
+  }
+}

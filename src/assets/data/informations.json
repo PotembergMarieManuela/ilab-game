@@ -1,0 +1,59 @@
+{
+    "farm":
+    [
+        {
+            "information":
+            [
+                "Bonjour, que dirais-tu d'aller voir les poules ?",
+                "Si nous allions visiter les moutons ?",
+                "Que dirais-tu d'en apprendre plus sur les cochons ?",
+                "Connais-tu tout les secrets que cachent les fruits et légumes ?"
+            ]
+        },
+        {
+            "information":
+            [
+                "Les poules vivent ici en liberté. Dans les usines, elles vivent dans des cages.",
+                "Dans les usines, elles ne soient jamais la lumière du jour et elles ne peuvent pas bouger.",
+                "Mes oeufs sont plus chers parce que mes poules vivent bien chez moi.",
+                "Ici, les poules élèvent elles-même leurs petits.",
+                "Les poussins grandissent naturellement, je ne les fais pas grandir de force !",
+                "Dans les usines, on les oblige à manger tout le temps et à pondre beaucoup d'oeuf.",
+                "Les poules sont omnivores, elles mangent de tout. On peut leur donner des déchets ménager."
+            ]
+        },
+        {
+            "information":
+            [
+                "Il faut tondre les moutons une fois par an, c'est bon pour leur santé !",
+                "La tonte des moutons ne leur fait absolument pas mal.",
+                "Chez les moutons, c'est la brebis la plus vieille qui commande. Si elle bouge, tout le monde bouge.",
+                "Chez moi, les brebis élèvent leur bébé et leur donne du lait. Ils ne sont pas séparés à la naissance.",
+                "Mes brebis ne sont pas tout le temps enceinte. Dans les usines, elles ont tout le temps des bébés.",
+                "Les moutons sont herbivores, ça veut dire qu'ils ne mangent que de l'herbe.",
+                "Un mouton peut vivre de 10 ans."
+            ]
+        },
+        {
+            "information":
+            [
+                "Les cochons ont une peau très sensible. Ils utilisent la boue pour se protéger.",
+                "La boue permet au cochon d'enlever plein de parasite qui vivent sur leur peau.",
+                "Ce sont des animaux très propres. Ils ne mangent jamais près de leur crotte !",
+                "Les cochons sont omnivores, c'est-à-dire qu'ils mangent de tout.",
+                "Les cochons peuvent vivre pendant 20 ans !",
+                "Les cochons pèsent 120 kilos"
+            ]
+        },
+        {
+            "information":
+            [
+                "Ici, on utilise la perma-culture. On crée un endroit qui mime la nature.",
+                "La perma-culture permet aux fruits et légumes de pousser chaque année sans l'aide de l'Homme.",
+                "On fait pousser des fruits et légumes l'un à côté de l'autre pour qu'ils puissent se protéger.",
+                "Savais-tu que les copaux de bois empêches les limaces et les escargots d'approcher les légumes ?",
+                "Ici, on recycle tout ! Les déchets servent à nourrir la terre pour faire pousser d'autre aliment."
+            ]
+        }
+    ]
+}
